@@ -1,5 +1,6 @@
 <script lang="ts">
     import NavBar from "$lib/atmo/NavBar.svelte";
+    import RowIcon from "$lib/atmo/icons/RowIcon.svelte";
     import "../app.css";
     import { ModeWatcher } from "mode-watcher";
     let { children } = $props();
@@ -9,7 +10,7 @@
 
 <NavBar>
     {#snippet icon()}
-        ATMO Engine
+        <RowIcon />
     {/snippet}
 </NavBar>
 
