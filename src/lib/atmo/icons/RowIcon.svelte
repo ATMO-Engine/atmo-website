@@ -3,11 +3,17 @@
 </script>
 
 {#if mode.current === "dark"}
-    <img class="h-full max-w-32" src="/icons/atmo-row-dark.png" alt="atmo row icon for dark mode" />
+    <img
+        fetchpriority="high"
+        width="48"
+        src="/icons/atmo-dark.svg"
+        alt="atmo row icon for dark mode"
+    />
 {:else if mode.current === "light"}
     <img
-        class="h-full max-w-32"
-        src="/icons/atmo-row-light.png"
+        fetchpriority="high"
+        width="48"
+        src="/icons/atmo-light.svg"
         alt="atmo row icon for light mode"
     />
 {/if}
