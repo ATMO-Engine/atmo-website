@@ -13,7 +13,7 @@
         <a class="flex shrink flex-row items-center gap-4 p-2" href="/">
             {@render icon()}
             <span class="font-[AmaticSC] text-4xl font-bold"> ATMO Engine </span>
-            <Button>Download</Button>
+            <!-- <Button>Download</Button> -->
         </a>
         <div class="ml-auto flex h-full w-auto items-center justify-end gap-4 pr-2">
             <Button onclick={toggleMode} variant="outline" size="icon">
